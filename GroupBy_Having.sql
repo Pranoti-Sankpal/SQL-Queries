@@ -75,3 +75,18 @@ SELECT salary, COUNT(*) AS salary_count
 FROM employee
 GROUP BY salary
 HAVING COUNT(*) > 1;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
