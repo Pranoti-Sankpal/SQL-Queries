@@ -1,3 +1,13 @@
+
+Aggregate functions are:
+
+COUNT()   -- counts rows
+SUM()     -- calculates total
+AVG()     -- calculates average
+MAX()     -- finds maximum
+MIN()     -- finds minimum
+
+
 -- Q1. Find the total number of employees
 
 SELECT COUNT(*) AS total_employees
