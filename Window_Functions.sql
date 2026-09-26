@@ -1,3 +1,15 @@
+
+| Function       | Purpose                             |
+| -------------- | ----------------------------------- |
+| `ROW_NUMBER()` | Gives a unique number to each row   |
+| `RANK()`       | Gives ranking, with gaps after ties |
+| `DENSE_RANK()` | Gives ranking, without gaps         |
+| `SUM()`        | Running/partitioned total           |
+| `AVG()`        | Average over a window               |
+| `COUNT()`      | Count over a window                 |
+| `LAG()`        | Gets value from previous row        |
+| `LEAD()`       | Gets value from next row            |
+
 -- Q1. Assign a row number to every employee
 
 SELECT name, department, salary,
