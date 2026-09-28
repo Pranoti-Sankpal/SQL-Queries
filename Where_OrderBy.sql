@@ -105,3 +105,29 @@ ORDER BY department ASC;
 SELECT *
 FROM employee
 ORDER BY department ASC, salary DESC; 
+
+-- practice queries
+1. Find employees whose salary is greater than 30,000
+SELECT *
+FROM Employee
+WHERE salary > 30000;
+
+2. Find students from the CSE department
+SELECT *
+FROM Student
+WHERE department = 'CSE';
+
+3. Find employees whose salary is between 20,000 and 50,000
+SELECT *
+FROM Employee
+WHERE salary BETWEEN 20000 AND 50000;
+
+4. Find students whose names start with 'A'
+SELECT *
+FROM Student
+WHERE name LIKE 'A%';
+
+5. Find employees who are not assigned to any department
+SELECT *
+FROM Employee
+WHERE dept_id IS NULL;
