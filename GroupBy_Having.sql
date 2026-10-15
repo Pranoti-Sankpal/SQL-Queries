@@ -74,3 +74,8 @@ SELECT salary, COUNT(*) AS salary_count
 FROM employee
 GROUP BY salary
 HAVING COUNT(*) > 1;
+
+-- Q11. Find avrage salaries department vise
+SELECT department, AVG(salary) AS average_salary
+FROM Employee
+GROUP BY department;
