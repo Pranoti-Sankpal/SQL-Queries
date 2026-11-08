@@ -188,5 +188,5 @@ WHERE salary > 70000;
 
 -- Q25. Display employee names with a custom column name
 
-SELECT name AS employee_name
+SELECT name as employee_name
 FROM employee;
