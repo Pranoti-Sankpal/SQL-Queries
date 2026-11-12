@@ -123,10 +123,4 @@ SELECT name, salary,
 FROM employee;
 
 
--- Q12. Display next employee's salary
 
-SELECT name, salary,
-       LEAD(salary) OVER (
-           ORDER BY emp_id
-       ) AS next_salary
-FROM employee;
