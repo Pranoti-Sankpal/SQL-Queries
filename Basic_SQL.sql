@@ -190,3 +190,17 @@ WHERE salary > 70000;
 
 SELECT name as employee_name
 FROM employee;
+
+
+
+-- Q24. Count employees whose salary is greater than 70000
+
+SELECT COUNT(*) AS employee_count
+FROM employee
+WHERE salary > 70000;
+
+
+-- Q25. Display employee names with a custom column name
+
+SELECT name as employee_name
+FROM employee;
